@@ -2,6 +2,8 @@
 import React from "react";
 import { SkillsInfo } from "../../constants";
 import Tilt from "react-parallax-tilt";
+import { FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaGithub, } from "react-icons/fa";
+
 
 const Skills = () => (
   <section
@@ -45,11 +47,7 @@ const Skills = () => (
                   key={skill.name}
                   className="flex flex-col items-center justify-center bg-transparent border-2 border-gray-700 rounded-3xl py-3 px-2 sm:py-4 sm:px-4 text-center overflow-hidden min-w-0"
                 >
-                  <img
-                    src={skill.logo}
-                    alt={`${skill.name} logo`}
-                    className="w-6 h-6 sm:w-8 sm:h-8 mb-1"
-                  />
+                  
                   <span className="text-xs sm:text-sm text-gray-300 break-words">
                     {skill.name}
                   </span>
