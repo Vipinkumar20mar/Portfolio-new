@@ -62,101 +62,131 @@ import project5 from './assets/work_logo/project5.png'
 import project6 from './assets/work_logo/project6.png'
 
 
+
 export const SkillsInfo = [
+  {
+    title: 'Programming',
+    skills: [
+      { name: 'Python' },
+      { name: 'SQL' },
+    ],
+  },
+
   {
     title: 'Frontend',
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      
-      { name: 'Redux', logo: reduxLogo },
-     
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'Streamlit' },
+      { name: 'HTML' },
+      { name: 'CSS' },
+      { name: 'JavaScript' },
     ],
   },
+
   {
-    title: 'Backend',
+    title: 'AI / Machine Learning',
     skills: [
-     
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      
+      { name: 'Machine Learning' },
+      { name: 'Deep Learning' },
+      { name: 'NLP' },
+      { name: 'Scikit-learn' },
+      { name: 'TensorFlow' },
+      { name: 'PyTorch' },
+      { name: 'Pandas' },
+      { name: 'NumPy' },
     ],
   },
+
   {
-    title: 'Languages',
+    title: 'Generative AI',
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-    
-      { name: 'Python', logo: pythonLogo },
-     
-      { name: 'JavaScript', logo: javascriptLogo },
-    
+      { name: 'LLMs' },
+      { name: 'LangChain' },
+      { name: 'LangGraph' },
+      { name: 'RAG' },
+      { name: 'Prompt Engineering' },
+      { name: 'AI Agents' },
+      { name: 'Hugging Face' },
+      { name: 'Transformers' },
+      { name: 'FAISS' },
+      { name: 'Vector Databases' },
     ],
   },
+
   {
-    title: 'Tools',
+    title: 'Backend & Database',
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: 'FastAPI' },
+      { name: 'Firebase' },
+      { name: 'PostgreSQL' },
+      { name: 'MongoDB' },
+      { name: 'REST APIs' },
+    ],
+  },
+
+  {
+    title: 'Tools & Deployment',
+    skills: [
+      { name: 'Git' },
+      { name: 'GitHub' },
+      { name: 'Render' },
+      { name: 'Netlify' },
+      { name: 'Postman' },
+      { name: 'VS Code' },
     ],
   },
 ];
 
-  export const experiences = [
+
+
+  ```javascript id="e3m9qf"
+export const experiences = [
   {
     id: 0,
-    img:pro,
-    role: "Technical Consultant (Frontend)",
+    img: pro,
+    role: "AI/ML Enginner / Generative AI Engineer",
     company: "Protiviti India Pvt. Ltd.",
-    date: "June 2023 – May 2025",
-    desc: "Developed and deployed User, Event, and Claim Creation pages for the HDFC Mutual Fund platform using React.js, Tailwind CSS, and Redux. Improved responsiveness and reduced initial page load time by 30% through efficient component structuring, lazy loading, and dynamic rendering with Chart.js.",
+    date: "June 2024 – May 2025",
+    desc: "Built scalable AI-powered applications using Large Language Models (LLMs), LangChain, LangGraph, and Retrieval-Augmented Generation (RAG) pipelines. Developed AI agents, semantic search systems, and production-ready ML workflows using FastAPI, vector databases, embeddings, and PostgreSQL memory systems for enterprise automation and conversational AI solutions.",
     skills: [
-      "React.js",
-      "Redux",
-      "Tailwind CSS",
-      "Axios",
-      "REST APIs",
-      "Chart.js",
-      "Lazy Loading",
-      "Code Splitting",
-      "RBAC",
+      "Python",
+      "Machine Learning",
+      "LLMs",
+      "LangChain",
+      "LangGraph",
+      "RAG",
+      "FastAPI",
+      "FAISS",
+      "Vector Databases",
+      "PostgreSQL",
+      "Prompt Engineering",
+      "Semantic Search",
+      "AI Agents",
     ],
   },
+
   {
     id: 1,
-     img:pro,
-    role: "Software Developer Intern (Frontend)",
+    img: pro,
+    role: "Data Scientist Intern",
     company: "Protiviti India Pvt. Ltd.",
     date: "October 2022 – May 2023",
-    desc: "Built modular React.js components, reducing feature development time by 40%. Integrated Firebase & JWT authentication to improve security, delivered fully responsive applications with complete cross-browser compatibility, and converted Figma designs into pixel-perfect HTML/CSS layouts with high visual accuracy.",
+    desc: "Worked on end-to-end machine learning pipelines including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and deployment using Python, Pandas, NumPy, and Scikit-learn. Assisted in building predictive models and automated analytics workflows for enterprise data science projects.",
     skills: [
-      "React.js",
-      "HTML",
-      "CSS",
-      "Firebase",
-      "JWT",
-      "Figma",
-      "Responsive Design",
+      "Python",
+      "SQL",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Machine Learning",
+      "EDA",
+      "Feature Engineering",
+      "Model Evaluation",
+      "Data Visualization",
     ],
   },
 ];
+```
+
 
   
   export const education = [
@@ -190,92 +220,72 @@ export const SkillsInfo = [
 ];
 
   
-  export const projects = [
-    {
-  id: 1, // Make sure this ID is unique in your list
-  title: "ZapTro - Portfolio Showcase",
-  description:
-    "A sleek, responsive, and interactive personal portfolio website built with modern web technologies. ZapTro elegantly presents projects, skills, and experience with engaging animations, polished UI, and user authentication powered by Clerk. Designed to impress recruiters and clients, it highlights your profile in a professional and creative way.",
-  image: project1, // Replace with your actual imported image variable for ZapTro logo/screenshot
-  tags: [
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "JavaScript",
-    "React JS",
-    "Clerk Auth"
-  ],
-  github: "https://github.com/codingmastr/ZapTro-Portfolio", // Replace with your actual repo URL if public
-  webapp: "https://zaptro.netlify.app/",
-}
-,
-    
-    {
-      id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    
-    
-    
-    {
-      id: 3,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 4,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
-    {
-  id: 5,
-  title: "Electro Shop",
-  description:
-    "A React.js-based e-commerce website for electronics, featuring smooth navigation with React Scroll, responsive design, and modern UI components. Built to showcase a practical shopping experience for gadgets and accessories.",
-  image: project5, // Replace this with your image import or URL
-  tags: ["React JS", "React Scroll", "E-commerce", "CSS", "Javascript"],
-  github: "https://github.com/yourusername/electro-shop", // Replace with your repo if available
-  webapp: "https://graceful-klepon-c85bf0.netlify.app/",
-},
-{
-  id: 6,
-  title: "Food Delivery App",
-  description:
-    "A responsive food delivery web application built with React.js, featuring category-based item filtering, debounced search for efficient searching, pagination for easy browsing through large menus, and lazy loading for faster performance. Integrated Redux and Context API for robust state management, styled with Tailwind CSS, and enhanced user interactions with Toastify notifications.",
-  image: project6, // Replace with your logo/image import or direct URL
-  tags: [
-    "React JS",
-    "Redux",
-    "Context API",
-    "Tailwind CSS",
-    "Toastify",
-    "Debounced Search",
-    "Pagination",
-    "Lazy Loading",
-    "Food Delivery",
-    "Responsive Design",
-    "Javascript"
-  ],
-  github: "https://github.com/yourusername/food-delivery-app", // Replace with your actual GitHub repo URL if available
-  webapp: "https://your-food-delivery-app.netlify.app/", // Replace with your actual deployed app URL
-},
-,
 
+export const projects = [
+  {
+    id: 1,
+    title: "AI Travel Agent",
+    description:
+      "Built an AI-powered Travel Agent using LangChain, LangGraph, FastAPI, and LLMs to provide intelligent travel planning, destination recommendations, itinerary generation, and conversational travel assistance. Implemented multi-agent workflows, API integrations, and PostgreSQL memory for personalized travel experiences.",
+  
+    tags: [
+      "Python",
+      "FastAPI",
+      "LangChain",
+      "LangGraph",
+      "LLMs",
+      "AI Agents",
+      "PostgreSQL",
+      "Streamlit",
+      "RAG",
+      "API Integration"
+    ],
+    github: "https://github.com/Vipinkumar20mar/Travel_Agentt",
+    webapp: "https://frontendpy-zpcrrjkebwumhr8ryrwpp4.streamlit.app/",
+  },
 
-  ];  
+  {
+    id: 2,
+    title: "HR AI Chatbot",
+    description:
+      "Developed an AI-powered HR chatbot using LangChain, LangGraph, FastAPI, and Retrieval-Augmented Generation (RAG) to automate HR support tasks such as employee queries, onboarding assistance, leave policies, and company FAQs. Integrated vector search using FAISS for contextual and accurate responses.",
+   
+    tags: [
+      "Python",
+      "FastAPI",
+      "LangChain",
+      "LangGraph",
+      "RAG",
+      "FAISS",
+      "LLMs",
+      "AI Chatbot",
+      "Semantic Search",
+      "Streamlit"
+    ],
+    github: "https://github.com/Vipinkumar20mar/HR_ChatBot",
+    webapp: "https://fnakv2cn8mmcnaj2h8gtkt.streamlit.app/",
+  },
+
+  {
+    id: 3,
+    title: "Medical AI Assistant",
+    description:
+      "Created a Medical AI Assistant using LangChain, LangGraph, FAISS, and Large Language Models to answer medical queries using a Retrieval-Augmented Generation pipeline. Implemented embeddings, semantic search, and document retrieval to improve response accuracy and reduce hallucinations.",
+  
+    tags: [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "FAISS",
+      "RAG",
+      "LLMs",
+      "Embeddings",
+      "Semantic Search",
+      "FastAPI",
+      "Streamlit"
+    ],
+    github: "https://github.com/Vipinkumar20mar/AL_Medical_chatbot",
+    webapp: "https://9nul7kzv2fi5xebrjycql4.streamlit.app/",
+  },
+];
+
