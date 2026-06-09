@@ -138,7 +138,7 @@ export const SkillsInfo = [
 
 
 
-  ```javascript id="e3m9qf"
+ 
 export const experiences = [
   {
     id: 0,
@@ -185,7 +185,7 @@ export const experiences = [
     ],
   },
 ];
-```
+
 
 
   
