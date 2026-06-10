@@ -288,7 +288,7 @@ export const projects = [
     webapp: "https://9nul7kzv2fi5xebrjycql4.streamlit.app/",
   },
   {
-  id: 5,
+  id: 4,
   title: "AI Chatbot with Persistent Memory",
   description:
     "Built a production-ready AI Chatbot using LangGraph, FastAPI, Streamlit, Firebase Authentication, and PostgreSQL. Implemented persistent conversation memory using LangGraph checkpoints and PostgreSQL, enabling the chatbot to remember previous interactions across sessions. Integrated secure user authentication with Firebase and developed a responsive chat interface for real-time AI conversations.",
@@ -311,6 +311,31 @@ export const projects = [
   github: "https://github.com/vipinkumar20mar/frontend_firebasechatbot/blob/main/frontend/app.py",
 
   webapp: "https://3xg5z63uljvvif8q4jqje4.streamlit.app/"
+},
+  {
+  id: 5,
+  title: "AI Social Media Manager",
+  description:
+    "Built an end-to-end AI Social Media Manager that generates, reviews, and publishes social media content using a LangGraph multi-agent architecture. Integrated Firebase Authentication for secure user access, FastAPI backend services, Streamlit frontend, and PostgreSQL memory for personalized content history. Implemented Human-in-the-Loop approval workflows, enabling users to edit and approve AI-generated posts before publishing.",
+
+  tags: [
+    "Python",
+    "LangGraph",
+    "FastAPI",
+    "Streamlit",
+    "Firebase",
+    "PostgreSQL",
+    "Multi-Agent Systems",
+    "Human-in-the-Loop",
+    "LLMs",
+    "OpenAI",
+    "AI Agents",
+    "Generative AI"
+  ],
+
+  github: "https://github.com/Vipinkumar20mar/Ai_SocialMedia_tweet_frontend",
+
+  webapp: "https://9ddbub2tthxqdx6h2khu9t.streamlit.app/"
 }
 ];
 
