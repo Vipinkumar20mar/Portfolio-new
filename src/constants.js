@@ -287,5 +287,30 @@ export const projects = [
     github: "https://github.com/Vipinkumar20mar/AL_Medical_chatbot",
     webapp: "https://9nul7kzv2fi5xebrjycql4.streamlit.app/",
   },
+  {
+  id: 5,
+  title: "AI Chatbot with Persistent Memory",
+  description:
+    "Built a production-ready AI Chatbot using LangGraph, FastAPI, Streamlit, Firebase Authentication, and PostgreSQL. Implemented persistent conversation memory using LangGraph checkpoints and PostgreSQL, enabling the chatbot to remember previous interactions across sessions. Integrated secure user authentication with Firebase and developed a responsive chat interface for real-time AI conversations.",
+
+  tags: [
+    "Python",
+    "LangGraph",
+    "LangChain",
+    "FastAPI",
+    "Streamlit",
+    "Firebase Authentication",
+    "PostgreSQL",
+    "AI Chatbot",
+    "LLMs",
+    "Conversational AI",
+    "Memory",
+    "OpenAI"
+  ],
+
+  github: "https://github.com/vipinkumar20mar/frontend_firebasechatbot/blob/main/frontend/app.py",
+
+  webapp: "https://3xg5z63uljvvif8q4jqje4.streamlit.app/"
+}
 ];
 
