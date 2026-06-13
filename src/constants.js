@@ -336,6 +336,34 @@ export const projects = [
   github: "https://github.com/Vipinkumar20mar/Ai_SocialMedia_tweet_frontend",
 
   webapp: "https://9ddbub2tthxqdx6h2khu9t.streamlit.app/"
+},
+  {
+id: 6,
+
+title: "AI Research Assistant",
+
+description:
+"Developed an AI-powered Research Assistant using LangGraph and FastAPI that automates information gathering, summarization, and report generation. Implemented multi-agent workflows for web search, content extraction, fact verification, and structured report creation. Integrated PostgreSQL for conversation memory, Streamlit for an interactive user interface, and Human-in-the-Loop review mechanisms to ensure high-quality research outputs.",
+
+tags: [
+"Python",
+"LangGraph",
+"FastAPI",
+"Streamlit",
+"PostgreSQL",
+"Multi-Agent Systems",
+"LLMs",
+"OpenAI",
+"RAG",
+"AI Agents",
+"Generative AI",
+"Research Automation"
+],
+
+github: "https://github.com/Vipinkumar20mar/AI_Research_Agent_Frontend",
+
+webapp: "https://hfkeedz4jmjrfjdsqscnnh.streamlit.app/"
 }
+
 ];
 
